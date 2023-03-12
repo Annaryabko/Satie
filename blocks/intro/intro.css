@@ -1,0 +1,19 @@
+.intro {
+    width: 100%;
+    max-width: 1200px;
+    padding: 0 64px;
+}
+
+.intro__wrapper {
+    padding: 160px 0;
+}
+
+.intro__header {
+    font-size: 48px;
+}
+
+@media (max-width: 600px) {
+    .intro {
+		padding: 0 24px;
+	}
+}

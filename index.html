@@ -1,90 +1,64 @@
-<!doctype html>
-
-<html lang="en">
+<!DOCTYPE html>
+<html lang="ru">
 <head>
-  <meta charset="utf-8">
-
-  <title>The HTML5 Herald</title>
-  <meta name="description" content="The HTML5 Herald">
-  <meta name="author" content="SitePoint">
-
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <link rel="stylesheet" href="style.css">
-
-  <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,700,900" rel="stylesheet">
-
-  <!--[if lt IE 9]>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
-  <![endif]-->
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Satie studio">
+	<meta name="keywords" content="html, css, javascript">
+	<meta name="author" content="Anna Efimova">
+	<link rel="stylesheet" href="style.css">
+	<title>Satie studio</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+	<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,700,900" rel="stylesheet">
 </head>
 
 <body>
-	<header class="header" id="header">
-		<div class="wrapper">
-			<a href="/" class="header-logo">
-				<div class="header-logo-image"></div>			
-			</a>
-			<div onclick="displayBlock()" class="header-menuBurger"></div>
-			<ul class="header-nav" id="header-nav">
-				<li class="header_item">
-					<a href="#whatWeDo" class="header-link">What we do</a>
-				</li>
-				<li class="header_item"><a href="#howWeWork" class="header-link">Our method</a></li>
-				<li class="header_item"><a href="#Ourworks" class="header-link">Case studies</a></li>
-				<li class="header_item"><a href="#Studio" class="header-link">About studio</a></li>
-				<li class="header_item"><a href="#ContactUs" class="header-link">Contact us</a></li>
-			</ul>
-
-
-			<ul class="header-social" id="header-social">
-				<a href="https://www.behance.net/satiestudio/" target="_blank"><li class="header-social-item social-item-behance"></li></a>
-				<a href="https://www.facebook.com/satiestudio/" target="_blank"><li class="header-social-item social-item-facebook"></li></a>
-				<a href="https://www.instagram.com/satiestudio/" target="_blank"><li class="header-social-item social-item-instagram"></li></a>
-				<a href="https://www.linkedin.com/company/satie-design/" target="_blank"><li class="header-social-item social-item-linkedin"></li></a>
-			</ul>
-
-
-			<div id="header-mobile-menu">
-
-				
-
+	<div class="page">
+		<header class="header" id="header">
+			<div class="header__wrapper">
+				<a href="/" class="header__logo">
+					<div class="header__logo-image"></div>			
+				</a>
+				<div onclick="displayBlock()" class="header__menu-burger"></div>
+				<ul class="header__nav" id="header__nav">
+					<li class="header__nav-item">
+						<a href="#what-we-do" class="header__nav-link">What we do</a>
+					</li>
+					<li class="header__nav-item">
+						<a href="#how-we-work" class="header__nav-link">Our method</a>
+					</li>
+					<li class="header__nav-item">
+						<a href="#our-works" class="header__nav-link">Case studies</a>
+					</li>
+					<li class="header__nav-item">
+						<a href="#studio" class="header__nav-link">About studio</a>
+					</li>
+					<li class="header__nav-item">
+						<a href="#contact-us" class="header__nav-link">Contact us</a>
+					</li>
+				</ul>
 			</div>
-
-
-			
+		</header>
+	<section class="intro reveal">
+		<div class="intro__wrapper">
+			<h1 class="intro__header">We create memorable digital platforms <br> for innovative brands.</h1>
 		</div>
-		
-	</header>
-
-	<section class="intro">
-		<div class="wrapper">
-			<h1>We create memorable digital platforms<br> for innovative brands.</h1>
-		</div>
-
 	</section>
 
-	<section class="whatWeDo" id="whatWeDo">
-		
-		<div class="whatWeDo-container">
-			<div class="whatWeDo-elem whatWeDo-elem-branding">
-				<div class="whatWeDo-elem-content">
-					<div class="ux-icon whatWeDo-elem-icon"></div>
+	<section class="what-we-do reveal" id="what-we-do">
+		<div class="what-we-do__container">
+			<div class="what-we-do__elem what-we-do__elem-design">
+				<div class="what-we-do__elem-content">
+					<div class="ux-icon what-we-do__elem-icon"></div>
 					<h3>UX UI Design</h3>
-                    <div class="header-arrowUpDown" id="header-arrowUpDown"></div>
-
-					<div class="header-underline"></div>
-					<div class="whatWeDo-elem-bgtext">
-						UX UI De sign
-					</div>
-
-					<div class="whatWeDo-elem-bgtext-mobile">
+					<div class="what-we-do__elem-bgtext">
 						UX UI Design
 					</div>
-
-					<div class="whatWeDo-elem-activeContent" id="whatWeDo-elem-activeContent">
-                        <p id="whatWeDo-elem-activeContent-subtitle">Memorable ideas to create unique digital destinations.</p>
-						<p id="whatWeDo-elem-activeContent-text"> We create digital platforms based on theoretical, technical and technological grounds; trying to highlight the uniqueness of the brand through our design.</p>
+					<div class="what-we-do__elem-bgtext-mobile">
+						UX UI Design
+					</div>
+					<div class="what-we-do__elem-activeContent" id="what-we-do__elem-activeContent">
+                        <p class="what-we-do__elem-activeContent-subtitle">Memorable ideas to create unique digital destinations.</p>
 						<ul>
 							<li>DIGITAL STRATEGY</li>
 							<li>INFORMATION ARQUITECTURE</li>
@@ -94,57 +68,46 @@
 						</ul>
 					</div>
 				</div>
-				<div class="whatWeDo-elem-picture whatWeDo-elem-ux-picture"></div>
-				<div class="whatWeDo-elem-borderline"></div>
-				
-				<div class="whatWeDo-elem-cover"></div>
-			</div><div class="whatWeDo-elem whatWeDo-elem-digital">
-				<div class="whatWeDo-elem-content">
-					<div class="development-icon whatWeDo-elem-icon"></div>
+				<div class="what-we-do__elem-picture what-we-do__elem-market-picture"></div>
+				<div class="what-we-do__elem-borderline"></div>
+				<div class="what-we-do__elem-cover"></div>
+			</div>
+			<div class="what-we-do__elem what-we-do__elem-dev">
+				<div class="what-we-do__elem-content">
+					<div class="development-icon what-we-do__elem-icon"></div>
 					<h3 class="DigMar">Development</h3>
-                    <div class="header-arrowUpDown" id="header-arrowUpDown"></div>
-                
-					<div class="header-underline"></div>
-					<div class="whatWeDo-elem-bgtext">
-						Deve Lopm Ent
-					</div>
-
-					<div class="whatWeDo-elem-bgtext-mobile">
+					<div class="what-we-do__elem-bgtext">
 						Development
 					</div>
-
-					<div class="whatWeDo-elem-activeContent" id="whatWeDo-elem-activeContent">
-                        <p id="whatWeDo-elem-activeContent-subtitle">Great UI designs deserve great UI development.</p>
-						<p id="whatWeDo-elem-activeContent-text">So it's essential to ensure your website design and development are simple, clean and user friendly, to make the users experience enjoyable.</p>
+					<div class="what-we-do__elem-bgtext-mobile">
+						Development
+					</div>
+					<div class="what-we-do__elem-activeContent" id="what-we-do__elem-activeContent">
+                        <p class="what-we-do__elem-activeContent-subtitle">Great designs deserves great development.</p>
 						<ul>
 							<li>Html5</li>
 							<li>Css3</li>
 							<li>Wordpress</li>
 						</ul>
 					</div>
-                    
-
 				</div>
                 
-				<div class="whatWeDo-elem-picture whatWeDo-elem-development-picture"></div>
-				<div class="whatWeDo-elem-borderline"></div>
-				<div class="whatWeDo-elem-cover"></div>
-			</div><div class="whatWeDo-elem whatWeDo-elem-ux">
-				<div class="whatWeDo-elem-content">
-					<div class="digital-icon whatWeDo-elem-icon"></div>
+				<div class="what-we-do__elem-picture what-we-do__elem-development-picture"></div>
+				<div class="what-we-do__elem-borderline"></div>
+				<div class="what-we-do__elem-cover"></div>
+			</div>
+			<div class="what-we-do__elem what-we-do__elem-market">
+				<div class="what-we-do__elem-content">
+					<div class="digital-icon what-we-do__elem-icon"></div>
 					<h3>Digital Marketing</h3>
-                    <div class="header-arrowUpDown" id="header-arrowUpDown"></div>
-					<div class="header-underline"></div>
-					<div class="whatWeDo-elem-bgtext">
+					<div class="what-we-do__elem-bgtext">
 						Digital Marketing
 					</div>
-
-					<div class="whatWeDo-elem-bgtext-mobile">
+					<div class="what-we-do__elem-bgtext-mobile">
 						Digital Marketing
 					</div>
-					<div class="whatWeDo-elem-activeContent" id="whatWeDo-elem-activeContent">
-                        <p id="whatWeDo-elem-activeContent-subtitle">There are no pretty or ugly campaigns… there are the good selling ones and those that don’t. </p>
-						<p id="whatWeDo-elem-activeContent-text">We use different technology and techniques in our high-end work to reach maximum conversions and impressions.</p>
+					<div class="what-we-do__elem-activeContent" id="what-we-do__elem-activeContent">
+                        <p class="what-we-do__elem-activeContent-subtitle">There are the good selling ones and those that don’t. </p>
 						<ul>
 							<li>CAMPAIGNS</li>
 							<li>CONTENT</li>
@@ -153,157 +116,134 @@
 							<li>EMAILS</li>
 						</ul>
 					</div>
-
-
 				</div>
-			
-				<div class="whatWeDo-elem-picture whatWeDo-elem-digital-picture"></div>
-				<div class="whatWeDo-elem-borderline"></div>
-				
-				<div class="whatWeDo-elem-cover"></div>
-			</div><div class="whatWeDo-elem whatWeDo-elem-social">
-				<div class="whatWeDo-elem-content">
-					<div class="social-icon whatWeDo-elem-icon"></div>
+				<div class="what-we-do__elem-picture what-we-do__elem-dev-picture"></div>
+				<div class="what-we-do__elem-borderline"></div>
+				<div class="what-we-do__elem-cover"></div>
+			</div>
+			<div class="what-we-do__elem what-we-do__elem-social">
+				<div class="what-we-do__elem-content">
+					<div class="social-icon what-we-do__elem-icon"></div>
 					<h3>Social media</h3>
-                    <div class="header-arrowUpDown" id="header-arrowUpDown"></div>
-					<div class="header-underline"></div>
-					<div class="whatWeDo-elem-bgtext">
-						Soci al media
+					<div class="what-we-do__elem-bgtext">
+						Social media
 					</div>
-
-					<div class="whatWeDo-elem-bgtext-mobile">
+					<div class="what-we-do__elem-bgtext-mobile">
 						SocialMedia
 					</div>
-
-					<div class="whatWeDo-elem-activeContent" id="whatWeDo-elem-activeContent">
-                        <p id="whatWeDo-elem-activeContent-subtitle">There is a new strength in social media.</p>
-						<p id="whatWeDo-elem-activeContent-text">We create our content aiming at a socially bound brand that would guide the client in getting to know the product, getting involved with the brand, and finally selling/buying/launching  it.</p>
+					<div class="what-we-do__elem-activeContent" id="what-we-do__elem-activeContent">
+                        <p class="what-we-do__elem-activeContent-subtitle">There is a new strength in social media.</p>
 						<ul>
 							<li>HISTORIES</li>
 							<li>VIDEOS post</li>
 							<li>POST</li>
 							<li>CANVAS</li>
 							<li>COLLECTION</li>
-                            <li>FACEBOOK, INSTAGRAM</li>
-                            
+                            <li>FACEBOOK, INSTAGRAM</li> 
 						</ul>
 					</div>
-
 				</div>
 				
-				<div class="whatWeDo-elem-picture whatWeDo-elem-social-picture"></div>
-				<div class="whatWeDo-elem-borderline"></div>
-				<div class="whatWeDo-elem-cover"></div>
+				<div class="what-we-do__elem-picture what-we-do__elem-social-picture"></div>
+				<div class="what-we-do__elem-borderline"></div>
+				<div class="what-we-do__elem-cover"></div>
 			</div>
 		</div>
-		
 	</section>
 
-	<section class="howWeWork" id="howWeWork">
-		<div class="wrapper">
-
-			<div class="howWeWork-content">
-				<div class="howWeWork-contentLeft">
+	<section class="how-we-work reveal" id="how-we-work">
+		<div class="how-we-work__wrapper">
+			<div class="how-we-work__content">
+				<div class="how-we-work__content-left">
 					<div class="hint">
 						<div class="hint-line"></div>
 						<div class="hint-text">Our method</div>
 					</div>
-					<div class="howWeWork-header">
+					<div class="how-we-work__header">
 						<h2>Make it memorable</h2>
 					</div>
-
-
-				<div class="howWeWork-contentRight">
-					<div class="howWeWork-imageWrapper">
-						<div class="howWeWork-contentRight-imageFirst"></div>
+				<div class="how-we-work__content-right">
+					<div class="how-we-work__image-wrapper">
+						<div class="how-we-work__img1"></div>
 					</div>
-					<div class="howWeWork-imageWrapper">
-						<div class="howWeWork-contentRight-imageSecond"></div>
+					<div class="how-we-work__image-wrapper">
+						<div class="how-we-work__img2"></div>
 					</div>
 				</div>
-
-
-				
-					<div class="howWeWork-contentLeft-Elem">
-						<div class="howWeWork-contentLeft-headername">Frame</div>
-						<div class="howWeWork-contentLeft-text">Our work aims to search for new solutions without losing our focus in the final product. It is our meticulous work in design and technology that influence experience.</div>
-					</div>
-					<div class="howWeWork-contentLeft-Elem">
-						<div class="howWeWork-contentLeft-headername">Experience</div>
-						<div class="howWeWork-contentLeft-text">The digital product should flow, like the flow of story telling. The user should find the plot attractive, understandable, and aesthetically thrilling. That is how we get Attention.</div>
-					</div>
-					<div class="howWeWork-contentLeft-Elem">
-						<div class="howWeWork-contentLeft-headername">Attention</div>
-						<div class="howWeWork-contentLeft-text howWeWork-contentLeft-text-noBorder">Details draw the attention of users. They make digital experience attractive, entertaining, and useful. Details can transform a piece of work into a memorable piece of art.</div>
-					</div>
-
+				<div class="how-we-work__content-left-elem">
+					<div class="how-we-work__content-left-headername">Frame</div>
+					<div class="how-we-work__content-left-text">Our work aims to search for new solutions without losing our focus in the final product. It is our meticulous work in design and technology that influence experience.</div>
 				</div>
-
+				<div class="how-we-work__content-left-elem">
+					<div class="how-we-work__content-left-headername">Experience</div>
+					<div class="how-we-work__content-left-text">The digital product should flow, like the flow of story telling. The user should find the plot attractive, understandable, and aesthetically thrilling. That is how we get Attention.</div>
+				</div>
+				<div class="how-we-work__content-left-elem">
+					<div class="how-we-work__content-left-headername">Attention</div>
+					<div class="how-we-work__content-left-text how-we-work__content-left-text-noBorder">Details draw the attention of users. They make digital experience attractive, entertaining, and useful. Details can transform a piece of work into a memorable piece of art.</div>
+				</div>
+				</div>
 			</div>
-			
 		</div>
 	</section>
-
-
-	<section class="Ourworks" id="Ourworks">
+	<section class="our-works reveal" id="our-works">
 		<div class="wrapper">
 			<div class="hint">
 				<div class="hint-line"></div>
 				<div class="hint-text">Case studies</div>
-			</div>
-			<div class="Ourworks-header">
-				<h2>Studio work cases</h2>
+				<div class="our-works__header">
+					<h2>Recent projects</h2>
+				</div>
 			</div>
 		</div>
-        
-		<div class="Ourworks-wrapper">	
-			<div class="Ourworks-item">
-				<div class="Ourworks-picture ourworks-finq"></div>
-				<div class="Ourworks-cover">
-					<div class="Ourworks-comingsoon">Coming soon</div>
-					<div class="Ourworks-cover-content">
-							<span class="Ourworks-brandname">Finq.com</span>
-							<h3>Finacial website development</h3>
-					</div>
-				</div>
-			</div><div class="Ourworks-item">
-				<div class="Ourworks-picture ourworks-bergman"></div>
-				<div class="Ourworks-cover">
-					<div class="Ourworks-comingsoon">Coming soon</div>
-					<div class="Ourworks-cover-content">
-							<span class="Ourworks-brandname">Bergman Immigration</span>
-							<h3>Helping People Get a Dream</h3>
-					</div>
-				</div>
-			</div><div class="Ourworks-item">
-				<div class="Ourworks-picture ourworks-ledgertech"></div>
-				<div class="Ourworks-cover">
-					<div class="Ourworks-comingsoon">Coming soon</div>
-					<div class="Ourworks-cover-content">
-							<span class="Ourworks-brandname">Ledgertech</span>
-							<h3>Conjugating the power of a startup and the new technologies</h3>
-					</div>
-				</div>
-			</div><div class="Ourworks-item">
-				<div class="Ourworks-picture ourworks-trade"></div>
-				<div class="Ourworks-cover">
-					<div class="Ourworks-comingsoon">Coming soon</div>
-					<div class="Ourworks-cover-content">
-							<span class="Ourworks-brandname">Trade.com</span>
-							<h3>Fintech Digital Marketing</h3>
+		<div class="our-works__wrapper">	
+			<div class="our-works__item">
+				<div class="our-works__picture our-works__finq"></div>
+				<div class="our-works__cover">
+					<div class="our-works__coming-soon">Coming soon</div>
+					<div class="our-works__cover-content">
+						<span class="our-works__brandname">Finq.com</span>
+						<h3>Finacial website development</h3>
 					</div>
 				</div>
 			</div>
-
+			<div class="our-works__item">
+				<div class="our-works__picture our-works_bergman"></div>
+				<div class="our-works__cover">
+					<div class="our-works__coming-soon">Coming soon</div>
+					<div class="our-works__cover-content">
+						<span class="our-works__brandname">Bergman Immigration</span>
+						<h3>Helping People Get a Dream</h3>
+					</div>
+				</div>
+			</div>
+			<div class="our-works__item">
+				<div class="our-works__picture our-works__ledgertech"></div>
+				<div class="our-works__cover">
+					<div class="our-works__coming-soon">Coming soon</div>
+					<div class="our-works__cover-content">
+						<span class="our-works__brandname">Ledgertech</span>
+						<h3>Conjugating the power of a startup and the new technologies</h3>
+					</div>
+				</div>
+			</div>
+			<div class="our-works__item">
+				<div class="our-works__picture ouour-works__trade"></div>
+				<div class="our-works__cover">
+					<div class="our-works__coming-soon">Coming soon</div>
+					<div class="our-works__cover-content">
+						<span class="our-works__brandname">Trade.com</span>
+						<h3>Fintech Digital Marketing</h3>
+					</div>
+				</div>
+			</div>
 		</div>
-
-		<div class="SeePortfolio">
+		<div class="see-portfolio">
 			<div class="wrapper">
-				
-            <div class="container" id="container-button-porfolio">
+            <div class="see-portfolio__container" id="container-button-porfolio">
               <ul>
                 <li>
-                  <a class="animated-arrow" href="https://www.behance.net/satiestudio/" target="_blank">
+                  <a class="see-portfolio__arrow" href="https://www.behance.net/annaefimova/" target="_blank">
                     <span class="the-arrow -left">
                       <span class="shaft"></span>
                     </span>
@@ -321,115 +261,88 @@
               </ul>
             </div>
 			</div>
-		</div>
-        
+		</div>     
 	</section>
-
-	<section class="Studio" id="Studio">
+	<section class="studio reveal" id="studio">
 		<div class="wrapper">
-            <div class="Studio-Content">
-                <div class="Studio-ContentLeft">
+            <div class="studio__content">
+                <div class="studio__content-left">
                     <div class="hint">
                         <div class="hint-line"></div>
-                        <div class="hint-text">About Studio</div>
+                        <div class="hint-text">About studio</div>
                     </div>
-                    <div class="Studio-header">
+                    <div class="studio__header">
                         <h2>We saw the web and digital world born and surfed it from the beginning.</h2>
                     </div>
-                    <div class="Studio-text">
+                    <div class="studio__text">
                         <p>We are a young design studio with professionals with more than 10 years of experience.</p>
                         <p>Our search for creative and technical quality is shown in the design. And the design reflects the connection between user and product, that is why it has to be perfect in order to be effective.</p> 
-                        
-                        <p>We work with passionate and extraordinary people who believe in innovation and creativity to fulfill their dreams.</p>
                     </div>
                 </div>
-                <div class="Studio-ContentRight">
-                    <div class="Studio-ImageWrapper">
-                        <div class="Studio-Image"></div>
+                <div class="studio__content-right">
+                    <div class="studio__image-wrapper">
+                        <div class="studio__image"></div>
                     </div>
                 </div>
-            </div>
-            
+            </div>    
 		</div>
-
 	</section>
 
-	<section class="ContactUs" id="ContactUs">
+	<section class="contact-us reveal" id="contact-us">
 		<div class="wrapper">
-			<div class="ContactUs-leftSide">
-			<div class="hint">
-				<div class="hint-line hint-line-white"></div>
-				<div class="hint-text">For new projects</div>
+			<div class="contact-us__left-side">
+				<div class="hint">
+					<div class="hint-line hint-line-white"></div>
+					<div class="hint-text">For new projects</div>
+				</div>
+				<div class="contact-us-header-content">
+					<h2>Contact us now</h2>
+					<p>Our office is in the heart of Tel Aviv, in&nbsp;the&nbsp;Sarona&nbsp;Tower, the&nbsp;tallest&nbsp;building in Israel.</p> 
+					<p class="contact-us-header-content-subtext">Just give us a call, come over and we can discuss your&nbsp;project over&nbsp;coffee, enjoying&nbsp;the&nbsp;views from&nbsp;the&nbsp;59th&nbsp;floor. </p>
+				</div>
+				<div class="contact-us__left-side-elem">
+					<div class="contact-us__icon contact-us__icon-map"></div><p class="contact-us-textline">menachem begin 121, 59 floor, Tel Aviv</p>
+				</div>
+				<div class="contact-us__left-side-elem">
+					<div class="contact-us__icon contact-us__icon-phone"></div><p class="contact-us-textline">054.954.54.33</p>
+				</div>
+				<div class="contact-us__left-side-elem">
+					<div class="contact-us__icon contact-us__icon-email"></div><p class="contact-us-textline"><a href="#">hello@satie.com</a></p>
+				</div>
 			</div>
-			<div class="ContactUs-header-content">
-				<h2>Contact us now</h2>
-				<p>Our office is in the heart of Tel Aviv, in&nbsp;the&nbsp;Sarona&nbsp;Tower, the&nbsp;tallest&nbsp;building in Israel.</p> 
-                <p class="ContactUs-header-content-subtext">Just give us a call, come over and we can discuss your&nbsp;project over&nbsp;coffee, enjoying&nbsp;the&nbsp;views from&nbsp;the&nbsp;59th&nbsp;floor. </p>
-			</div>
-			<div class="ContactUs-leftSide-elem">
-				<div class="ContactUs-icon ContactUs-icon-map"></div><p class="ContactUs-textline">Menachem Begin 121, 59 floor, Tel Aviv</p>
-			</div>
-			<div class="ContactUs-leftSide-elem">
-				<div class="ContactUs-icon ContactUs-icon-phone"></div><p class="ContactUs-textline">054.688.92.29</p>
-			</div>
-			<div class="ContactUs-leftSide-elem">
-				<div class="ContactUs-icon ContactUs-icon-email"></div><p class="ContactUs-textline"><a href="#">hello@SatieStudio.com</a></p>
-			</div>
-
 		</div>
-
-
-			
-
-		</div>
-		
 	</section>
-
-	<section class="footer">
+	<section class="footer reveal">
 		<div class="wrapper">
-			<div class="footer-logo"></div>
-
-
-			<ul class="footer-nav">
-				<li class="footer_item">
-					<a href="#whatWeDo" class="footer-link">What we do</a>
+			<div class="footer__logo"></div>
+			<ul class="footer__nav">
+				<li class="footer__item">
+					<a href="#what-we-do" class="footer__link">What we do</a>
 				</li>
-				<li class="footer_item"><a href="#howWeWork" class="footer-link">Our method</a></li>
-				<li class="footer_item"><a href="#Ourworks" class="footer-link">Case studies</a></li>
-				<li class="footer_item"><a href="#Studio" class="footer-link">About studio</a></li>
-				<li class="footer_item"><a href="#ContactUs" class="footer-link">Contact us</a></li>
-                <li class="footer_item"><a href="#ContactUs" class="footer-link">Privacy Policy</a></li>
-                
-			</ul>
-            
-            				
-
-
-			
-			<ul class="footer-social">
-				<a href="https://www.behance.net/satiestudio/" target="_blank"><li class="footer-social-item social-item-behance"></li></a>
-				<a href="https://www.facebook.com/satiestudio/" target="_blank"><li class="footer-social-item social-item-facebook"></li></a>
-				<a href="https://www.instagram.com/satiestudio/" target="_blank"><li class="footer-social-item social-item-instagram"></li></a>
-				<a href="https://www.linkedin.com/company/satie-design/" target="_blank"><li class="footer-social-item social-item-linkedin"></li></a>
+				<li class="footer__item"><a href="#how-we-work" class="footer__link">Our method</a></li>
+				<li class="footer__item"><a href="#our-works" class="footer__link">Case studies</a></li>
+				<li class="footer__item"><a href="#studio" class="footer__link">About studio</a></li>
+				<li class="footer__item"><a href="#contact-us" class="footer__link">Contact us</a></li>
+                <li class="footer__item"><a href="#contact-us" class="footer__link">Privacy Policy</a></li>       
+			</ul>	
+			<ul class="footer__social">
+				<a href="https://www.behance.net/satiestudio/" target="_blank"><li class="footer__social-item social-item-behance"></li></a>
+				<a href="https://www.facebook.com/satiestudio/" target="_blank"><li class="footer__social-item social-item-facebook"></li></a>
+				<a href="https://www.instagram.com/satiestudio/" target="_blank"><li class="footer__social-item social-item-instagram"></li></a>
+				<a href="https://www.linkedin.com/company/satie-design/" target="_blank"><li class="footer__social-item social-item-linkedin"></li></a>
 			</ul>
 			<div class="clearBoth"></div>
-
-			<div class="footer-text">
-				&copy; 2022 Satie Studio.<br>
+			<div class="footer__text">
+				&copy; 2022 Satie studio.<br>
                 All rights Reserved.
 			</div>
-            <div class="footer-toTopButton">
-                <a  class="footer-smalllink" href="#header" target="_blank"> <span class="footer-arrow">&#11205;</span> Back To Top</a>
-            </div>
-            
-		
-		</div>
-		
-		
-	</section>
-
-
+            <div class="footer__top-button">
+                <a  class="footer__small-link" href="#header" target="_blank">↑ Back To Top</a>
+			</div>	
+		</div>		
+	</section> 
     <script src="js/smoothscroll.js"></script>
     <script src="js/scripts.js"></script>
+	</div>
 </body>
 </html>

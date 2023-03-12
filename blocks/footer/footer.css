@@ -1,0 +1,153 @@
+.footer {
+	padding: 100px 64px;
+	background-color: black;
+	color: white;
+}
+
+.footer__nav {
+	float: left;
+	margin-left: 3%;
+}
+
+.footer__item {
+	display: inline-block;
+	list-style: none;
+	margin-left: 0.8em;
+	font-weight: 30px;
+	color: white;
+	opacity: 0.3;
+}
+
+.footer__item:hover {
+	text-decoration: underline;
+}
+
+.footer__link {
+	text-decoration: none;
+	color: white;
+	font-size: 16px;
+}
+
+.footer__social {
+	float: right;
+	list-style-type: none;
+}
+
+
+.footer__social-item {
+	height: 30px;
+	width: 30px;
+	display: inline-block;
+	margin-left: 10px;
+	transition: all 0.3s ease-out;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.footer__social-item:hover  {
+	opacity: 0.5;
+}
+
+.social-item-instagram {
+	background-image: url(../../images/icons/instagram.png);
+	background-size: contain;
+}
+.social-item-behance {
+	background-image: url(../../images/icons/behance.png);
+	background-size: contain;
+}
+
+.social-item-facebook {
+	background-image: url(../../images/icons/facebook.png);
+	background-size: contain;
+}
+
+.social-item-linkedin {
+	background-image: url(../../images/icons/linkedin.png);
+	background-size: contain;
+}
+
+.footer__social-item {
+	height: 30px;
+	width: 30px;
+	display: inline-block;
+	margin-left: 10px;
+	transition: all 0.3s ease-out;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.footer__logo {
+	background-image: url(../../images/logo/logo-footer.png);
+	height: 30px;
+	width: 89px;
+	float: left;
+	opacity: 0.3;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.footer__text {
+	font-size: 12px;
+	opacity: 0.3;
+    float: left;
+
+}
+
+.footer__small-link {
+    color: white;
+    text-decoration: none;
+    padding: 7px 12px;
+    display: block;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    opacity: 0.3;
+    border: 1px solid white;
+}
+
+.footer__top-button {
+    float: right;
+   
+}
+.footer__top-button, .footer__text {
+ margin-top: 10px;
+}
+ 
+
+.footer__small-link:hover {
+    opacity: 1;
+}
+
+@media (max-width: 1200px) {
+    .footer__logo, .footer__nav, .footer__social {
+		display: block;
+		float: none;
+		text-align: center;
+		margin: 0 auto;
+	}
+
+	.footer__nav {
+		margin: 24px 0;
+	}
+    
+    .footer__social {
+        margin-bottom: 5px;
+    }
+
+
+	.footer__item {
+		margin: 7px 15px;
+	}
+
+	.footer__text {
+		text-align: center;
+	}
+}
+
+@media (max-width: 600px) {
+	.footer {
+		padding: 100px 24px;
+	}
+}
+
